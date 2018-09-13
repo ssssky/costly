@@ -20,18 +20,6 @@ class _AccountPageState extends State<AccountPage> {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
-//        appBar: AppBar(
-//          title: Text('账户'),
-//          centerTitle: false,
-//          actions: <Widget>[
-//            IconButton(
-//                icon: Icon(Icons.add),
-//                onPressed: () {
-//                  print('aaa');
-//                })
-//          ],
-//          bottom: TabBar(tabs: [Tab(text: 'aaa',), Tab(text: 'bbb',)]),
-//        ),
         body: NestedScrollView(
             headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
               return <Widget>[

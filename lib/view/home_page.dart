@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    final bottomItems = _pages.map((page) {
+    final List<BottomNavigationBarItem> bottomItems = _pages.map((page) {
       return BottomNavigationBarItem(icon: Icon(page.iconData), title: Text(page.title));
     }).toList();
 

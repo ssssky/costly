@@ -21,6 +21,7 @@ class _SettingPageState extends State<SettingPage> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
+      appBar: AppBar(title: Text('设置'), centerTitle: false,),
       body: Center(
         child: Text('setting'),
         ),
